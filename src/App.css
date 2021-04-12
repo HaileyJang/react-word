@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  padding: 50px;
+  font-family: "Verdana", sans-serif;
 }
 
 .App-logo {
@@ -13,15 +14,47 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.tdProps {
+  color:#0000ff
+}
+
+.customDropdown {
+  background-color: white;
+  color: black;
+}
+
+.lastEdit{
+  color:gray;
+  font-size: small;
+}
+
+.item {
+  margin: 0px;
+}
+
+
+.bigFont {
+  justify-content: flex-start;
+  font-size: large;
+}
+      
+
+.App-header {
+  display: flex;
+  align-content: space-around;
+  padding: 0;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
