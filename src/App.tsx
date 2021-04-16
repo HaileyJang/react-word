@@ -15,8 +15,8 @@ function App() {
 
   return (
     <>
-    <div className = "app">
-    <Container fluid><Row><Col sm = {10}>
+    <div className = "App">
+    <Container fluid><Row><Col lg = {10}>
     <b>Words</b></Col>
     <Col sm = {1}>
       <Dropdown>
