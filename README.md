@@ -6,7 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 After cloning the repo, run the following commands in order:
 
-'yarn install' 'yarn start'
+    ```
+    yarn run release
+    yarn start
+    ```
 
 This should open up a local host browser with the react project.
 
