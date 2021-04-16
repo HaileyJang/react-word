@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 After cloning the repo, run the following commands in order:
 
     ```
-    yarn run release
+    yarn install
     yarn start
     ```
 
