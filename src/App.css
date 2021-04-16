@@ -3,24 +3,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-}
-
-.child {
-  display: flex;
-  border: 1px solid black;
-  align-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  margin-right: auto;
-  margin: 0 -4px -4px 0;
-  padding: 0;
-}
-
-.customDropdown {
-  background-color: white;
-  color: black;
+#nav-dropdown a {
+  background: white;
+  color: grey;
+  justify-content: right;
 }
 
 .lastEdit{
